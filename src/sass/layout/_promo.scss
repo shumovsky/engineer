@@ -1,0 +1,31 @@
+.promo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 128px;
+    padding-bottom: 63px;
+}
+
+.promo__content {
+    flex-basis: 60%;
+}
+
+.promo__price {
+    flex-basis: 30%;
+}
+
+.promo__text {
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: $color-light;
+    opacity: 0.7;
+    padding-top: 38px;
+    margin: 0 auto;
+}
+
+.promo__price_text {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    color: $color-light;
+    padding-top: 40px;
+    margin: 0 auto;
+}

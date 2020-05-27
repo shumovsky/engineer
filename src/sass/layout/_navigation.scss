@@ -1,0 +1,42 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    nav {
+        margin-right: 80px;
+    }
+}
+
+.menu__icon {
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    top: 8px;
+    span {
+        display: block;
+        width: 16px;
+        height: 2px;
+        background-color: #fee040;
+    }
+}
+
+.menu__icon::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: $color-light;
+    top: -8px;
+}
+
+.menu__icon::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: $color-light;
+    top: 8px;
+}

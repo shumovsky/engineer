@@ -1,0 +1,43 @@
+.tools__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 340px;
+    }
+    h3 {
+        padding-bottom: 50px;
+    }
+}
+
+.tools__description {
+    flex-basis: 50%;
+    padding-top: 100px;
+    padding-left: 250px;
+    ul {
+        font-size: 1.8rem;
+        line-height: 3.6rem;
+        color: $color-brand;
+        li {
+           list-style-image: url(../img/ico_list.png);
+           padding-left: 20px;
+        }
+    }
+}
+
+.tools__text {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.5px;
+    color: $color-text_light;
+    opacity: 0.7;
+    padding-bottom: 89px;
+}
+
+.list {
+    background: #E5E5E5;
+}

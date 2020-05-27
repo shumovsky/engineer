@@ -1,0 +1,36 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom:60px;
+}
+
+.description__title {
+    display: flex;
+}
+
+.description__tools {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    letter-spacing: -0.5px;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.5px;
+    color: $color-light;
+    img {
+        padding-right: 30px;
+        height: 39px;
+    }
+}
+
+.description__video {
+    position: relative;
+    a {
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
